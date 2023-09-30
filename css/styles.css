@@ -11,12 +11,36 @@
     color:#434455;
 }
 .inf:active {
-    color: #404BBF;
+    color:#404BBF;
 }
 .button {
     color:white;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
 }
 .button:hover {
-    background: #404BBF;
+    background-color: #404BBF;
+}
+.kings {
+    color:#2E2F42;
+}
+.narratives {
+    color:#434455;
+}
+.team {
+    color: #2E2F42;
+}
+.name {
+    color: #2E2F42;
+}
+.prof {
+    color: #434455;
+}
+.portfol {
+    color: #2E2F42;
+}
+.app {
+    color: #2E2F42;
+}
+.mark {
+    color: #434455;
 }
