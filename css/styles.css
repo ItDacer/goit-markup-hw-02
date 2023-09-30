@@ -1,13 +1,16 @@
+.h1 {
+    color:#FFFFFF;
+}
 .nav-link {
    color: #2E2F42;
 }
 .nav-link:active {
     color:#404BBF;
 }
-.mail {
+.inf {
     color:#434455;
 }
-.mail:active {
+.inf:active {
     color: #404BBF;
 }
 .button {
