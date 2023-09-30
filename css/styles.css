@@ -1,9 +1,19 @@
 .nav-link {
    color: #2E2F42;
 }
-.nav-link:hover {
+.nav-link:active {
     color:#404BBF;
 }
-.inf {
+.mail {
     color:#434455;
+}
+.mail:active {
+    color: #404BBF;
+}
+.button {
+    color:white;
+    background: #4D5AE5;
+}
+.button:hover {
+    background: #404BBF;
 }
