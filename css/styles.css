@@ -124,10 +124,9 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.team {
+.team-list {
     background-color:var(--color-main);
 }
-
 .name {
     color:var(--color-kek);
     font-weight: 500;
