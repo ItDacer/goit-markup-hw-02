@@ -1,25 +1,64 @@
+:root {
+    --color-kek:#2E2F42;
+    --color-active-kek:#404BBF;
+    --color-button:#4D5AE5;
+    --color-kekl:#434455;
+    --color-main:#FFFFFF;
+    --c-bgc-light: #FFF;
+}
+.logo {
+    color: var(--color-kek);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16px;
+    letter-spacing: 33.3;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo-accent {
+    color:var(--color-button)
+}
+.nav-link {
+    color: var(--color-kek);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+
+.nav-link:active {
+    color: var(--color-active-kek);
+}
 .h1 {
-    color:#FFFFFF;
+    color:var(--color-main);
+    background-color: var(--color-kek);
+    width: 1440px;
+    height: 600px;
+    top: 72px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
 }
-.nav-link {
-   color: #2E2F42;
-}
-.nav-link:active {
-    color:#404BBF;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--c-bgc-light);
 }
 .inf {
-    color:#434455;
+    color:var(--color-kekl);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    text-decoration: none;
 }
 .inf:active {
-    color:#404BBF;
+    color:var(--color-active-kek);
 }
 .button {
-    color:white;
-    background-color: #4D5AE5;
+    color:var(--color-main);
+    background-color:var(--color-button);
     border: 0;
     cursor: pointer;
     font-family: "Roboto";
@@ -29,29 +68,29 @@
     letter-spacing: 0.04em;
 }
 .button:hover {
-    background-color: #404BBF;
+    background-color:var(--color-active-kek);
 }
 .kings {
-    color:#2E2F42;
+    color:var(--color-kek);
 }
 .narratives {
-    color:#434455;
+    color:var(--color-kekl);
 }
 .team {
-    color: #2E2F42;
+    color:var(--color-kek);
 }
 .name {
-    color: #2E2F42;
+    color:var(--color-kek);
 }
 .prof {
-    color: #434455;
+    color:var(--color-kekl);
 }
 .portfol {
-    color: #2E2F42;
+    color:var(--color-kek);
 }
 .app {
-    color: #2E2F42;
+    color:var(--color-kek);
 }
 .mark {
-    color: #434455;
+    color: var(--color-kekl);
 }
