@@ -91,7 +91,9 @@ body {
 .button:focus {
     background-color:var(--color-active-kek);
 }
-
+.button:hover {
+    background-color:var(--color-active-kek);
+}
 .kings {
     color:var(--color-kek);
     font-weight: 500;
