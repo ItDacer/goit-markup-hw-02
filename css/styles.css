@@ -30,24 +30,14 @@ button {
 .info {
     font-style: normal
 }
-.nav-link:first-child {
+.nav-link {
     color: var(--color-kek);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.nav-link:nth-child(2) {
-    color: var(--color-kek);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.nav-link:focus {
-    color: var(--color-active-kek);
-}
-.nav-link:hover {
+.nav-link:focus .nav-link:hover {
     color: var(--color-active-kek);
 }
 .h1 {
