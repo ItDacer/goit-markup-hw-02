@@ -27,7 +27,7 @@ button {
 .logo-accent {
     color:var(--color-kek)
 }
-.adress {
+.info {
     font-style: normal
 }
 .nav-link {
@@ -37,7 +37,7 @@ button {
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
 }
-.nav-link:active {
+.nav-link:focus {
     color: var(--color-active-kek);
 }
 .nav-link:hover {
