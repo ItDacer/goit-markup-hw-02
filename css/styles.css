@@ -30,45 +30,24 @@ button {
 .info {
     font-style: normal
 }
-.nav-one {
+.nav-link:first-child {
     color: var(--color-kek);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.nav-two {
+.nav-link:nth-child(2) {
     color: var(--color-kek);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.nav-three {
-    color: var(--color-kek);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.nav-one:focus {
+.nav-link:focus {
     color: var(--color-active-kek);
 }
-.nav-one:hover {
-    color: var(--color-active-kek);
-}
-.nav-two:focus {
-    color: var(--color-active-kek);
-}
-
-.nav-two:hover {
-    color: var(--color-active-kek);
-}
-.nav-three:focus {
-    color: var(--color-active-kek);
-}
-
-.nav-three:hover {
+.nav-link:hover {
     color: var(--color-active-kek);
 }
 .h1 {
