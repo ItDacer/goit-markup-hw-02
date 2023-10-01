@@ -27,6 +27,9 @@ button {
 .logo-accent {
     color:var(--color-kek)
 }
+.adress {
+    font-style: normal
+}
 .nav-link {
     color: var(--color-kek);
     font-size: 16px;
@@ -34,8 +37,10 @@ button {
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
 }
-
 .nav-link:active {
+    color: var(--color-active-kek);
+}
+.nav-link:hover {
     color: var(--color-active-kek);
 }
 .h1 {
