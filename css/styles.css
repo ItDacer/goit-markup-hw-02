@@ -5,6 +5,7 @@
     --color-kekl:#434455;
     --color-main:#FFFFFF;
     --c-bgc-light: #FFF;
+    --color-team:#F4F4FD
 }
 a {
     text-decoration: none;
@@ -15,6 +16,12 @@ ul {
 button {
     font-family: inherit;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--c-bgc-light);
+    color: var(--color-kekl);
+}
+/* ЛОГОТИП И ССЫЛКИ */
 .logo {
     font-family: 'Raleway', sans-serif;
     color: var(--color-button);
@@ -25,7 +32,7 @@ button {
     text-transform: uppercase;
 }
 .logo-accent {
-    color:var(--color-kek)
+    color:var(--color-kek);
 }
 .info {
     font-style: normal
@@ -43,8 +50,9 @@ button {
  .nav-link:hover {
     color: var(--color-active-kek);
 }
+/* ПЕРВАЯ СЕКЦИЯ */
 .sone {
-    background-color:var(--color-kek)
+    background-color:var(--color-kek);
 }
 .h-one {
     color:var(--color-main);
@@ -57,11 +65,7 @@ button {
     text-align: center;
     letter-spacing: 0.02em;
 }
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--c-bgc-light);
-    color:var(--color-kekl);
-}
+
 .inf {
     color:var(--color-kekl);
     font-size: 16px;
@@ -94,6 +98,7 @@ body {
 .button:hover {
     background-color:var(--color-active-kek);
 }
+/* НОТАЦИИ */
 .kings {
     color:var(--color-kek);
     font-weight: 500;
@@ -107,15 +112,36 @@ body {
     font-size: 16px;
     letter-spacing: 0.02em
 }
-.team {
-    color:var(--color-kek);
+.sthree {
+    background-color:var(--color-team);
 }
+/* КОМАНДА */
+.ourteam {
+    color:var(--color-kek);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.team {
+    background-color:var(--color-main);
+}
+
 .name {
     color:var(--color-kek);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .prof {
     color:var(--color-kekl);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+/* ПОРТФОЛИО */
 .portfol {
     color:var(--color-kek);
 }
