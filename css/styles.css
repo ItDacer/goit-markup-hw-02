@@ -37,7 +37,10 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.nav-link:focus .nav-link:hover {
+.nav-link:focus {
+    color: var(--color-active-kek);
+}
+ .nav-link:hover {
     color: var(--color-active-kek);
 }
 .h1 {
@@ -60,11 +63,14 @@ body {
     color:var(--color-kekl);
     font-size: 16px;
     font-weight: 400;
-    line-height: 0.66; /* 150% */
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.inf:active {
+.inf:focus {
     color:var(--color-active-kek);
+}
+.inf:hover {
+    color: var(--color-active-kek);
 }
 .button {
     color:var(--color-main);
