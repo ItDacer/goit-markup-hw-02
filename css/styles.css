@@ -43,7 +43,10 @@ button {
  .nav-link:hover {
     color: var(--color-active-kek);
 }
-.h1 {
+.sone {
+    background-color:var(--color-kek)
+}
+.h-one {
     color:var(--color-main);
     background-color: var(--color-kek);
     width: 1440px;
@@ -72,24 +75,35 @@ body {
 .inf:hover {
     color: var(--color-active-kek);
 }
+/*КНОПКА*/
 .button {
     color:var(--color-main);
     background-color:var(--color-button);
     border: 0;
     cursor: pointer;
+    font-size: 16px;
     font-weight: 500;
     padding: 16px 32px;
     border-radius: 4px;
     line-height: 1.5;
+    letter-spacing: 0.04em
 }
-.button:hover {
+.button:focus {
     background-color:var(--color-active-kek);
 }
+
 .kings {
     color:var(--color-kek);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .narratives {
     color:var(--color-kekl);
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em
 }
 .team {
     color:var(--color-kek);
