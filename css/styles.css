@@ -5,7 +5,7 @@
     --color-kekl:#434455;
     --color-main:#FFFFFF;
     --c-bgc-light: #FFF;
-    --color-team:#F4F4FD
+    --color-team:#F4F4FD;
 }
 a {
     text-decoration: none;
@@ -155,4 +155,13 @@ body {
     color: var(--color-kekl);
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+/* КОНЕЦ */
+.foot {
+    background-color:var(--color-kek);
+}
+.paragraph {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--color-team)
 }
